@@ -42,23 +42,4 @@ tier-list/<br />
 4. Click "Save Tier List" to export your arrangement
 
 <h2>Customization</h2>
-You can modify the tier colors, labels, and items by editing the `data.json` file:
-```json
-{
-  "tiers": [
-    {
-      "label": "S",
-      "color": "#ff7f7f"
-    },
-    {
-      "label": "A",
-      "color": "#ffbf7f"
-    }
-  ],
-  "items": [
-    {
-      "id": "item1",
-      "name": "Item 1"
-    }
-  ]
-}
+You can modify the tier colors, labels, and items by editing the `data.json` file
