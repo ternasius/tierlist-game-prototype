@@ -2,18 +2,18 @@
 A drag-and-drop tier list creator built with HTML, CSS, and JavaScript.
 
 <h2>Features</h2>
-- Drag and drop items between tiers\
-- Customizable tier labels\
-- Save tier list as JSON\
-- Responsive grid layout\
+- Drag and drop items between tiers <br />
+- Customizable tier labels<br />
+- Save tier list as JSON<br />
+- Responsive grid layout<br />
 - Automatic item arrangement (left to right, top to bottom)
 
 <h2>Project Structure</h2>
-tier-list/\
-├── index.html\
-├── style.css\
-├── ui.js\
-├── buttons.js\
+tier-list/<br />
+├── index.html<br />
+├── style.css<br />
+├── ui.js<br />
+├── buttons.js<br />
 └── data.json
 
 <h2>Components</h2>
