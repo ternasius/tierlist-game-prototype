@@ -9,11 +9,11 @@ A drag-and-drop tier list creator built with HTML, CSS, and JavaScript.
 - Automatic item arrangement (left to right, top to bottom)
 
 ## Project Structure
-tier-list/
-├── index.html
-├── style.css
-├── ui.js
-├── buttons.js
+tier-list/  
+├── index.html  
+├── style.css  
+├── ui.js  
+├── buttons.js  
 └── data.json
 
 ## Components
