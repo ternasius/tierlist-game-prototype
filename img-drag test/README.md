@@ -41,5 +41,5 @@ tier-list/
 3. Items will automatically arrange themselves
 4. Click "Save Tier List" to export your arrangement
 
-<h2>Customization</h2>
+## Customization
 You can modify the tier colors, labels, and items by editing the `data.json` file
