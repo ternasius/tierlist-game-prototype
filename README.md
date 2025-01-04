@@ -28,6 +28,8 @@ A lobby interface that allows the user to:
 - Start the game (for now, it just redirects the user to a junk HTML)
 - Leave the lobby (for now, it just redirects the user to a junk HTML)
 
+### 3. TBD
+
 ## Future Development Goals
 - [ ] Add ability to create custom tiers
 - [ ] Add image support
