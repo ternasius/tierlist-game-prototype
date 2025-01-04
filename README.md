@@ -20,14 +20,20 @@ A drag-and-drop interface where users can:
 - Save their tier list arrangements
 - View items in a clean, grid-based layout
 
-### 2. TBD
+### 2. Game Lobby
+A lobby interface that allows the user to:
+- Join the lobby with a maximum capacity of 12 (I can't imagine gathering more than 12 people for this game, its basically a Jackbox game)
+- Remove people from the lobby
+- Create a username prior to joining the lobby, with a maximum character length
+- Start the game (for now, it just redirects the user to a junk HTML)
+- Leave the lobby (for now, it just redirects the user to a junk HTML)
 
 ## Future Development Goals
 - [ ] Add ability to create custom tiers
 - [ ] Add image support
 - [ ] Create share functionality
 - [ ] Implement settings for extra game customizability
-- [ ] Create a lobby website for players to gather
+- [x] Create a lobby website for players to gather
 - [ ] Deploy this project to the web
 
 ## Challenges & Learning Points
