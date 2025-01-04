@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Lobby</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+</head>
+<body>
+    <header>
+        <h1>Current Lobby: <span id="lobby-name">Lobby #1</span></h1>
+    </header>
+
+    <main>
+        <!-- Lobby Information -->
+        <section id="lobby-info">
+            <div class="player-count">
+                <h2>Players: <span id="current-players">0</span>/<span id="max-players">12</span></h2>
+            </div>
+            
+            <!-- Player List -->
+            <div class="player-list">
+                <h2>Players in Lobby</h2>
+                <ul id="players">
+                    <!-- this is where the players will be shown -->
+                </ul>
+            </div>
+
+            <div class="add-player-form">
+                <h2>Add New Player</h2>
+                <form id="new-player-form">
+                    <input type="text" id="new-player-name" maxlength="12"
+                    placeholder="Enter name (max 12 chars)" required>
+                    <button type="submit">Add Player</button>
+                </form>
+            </div>
+
+            <!-- Lobby Controls -->
+            <div class="lobby-controls">
+                <button id="leave-lobby-btn">Leave Lobby</button>
+                <!-- <button id="start-game-btn" class="host-only" disabled>Start Game</button> -->
+                <button id="start-game-btn" class="host-only">Start Game</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
